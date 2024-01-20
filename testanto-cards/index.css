@@ -1,0 +1,33 @@
+
+body{
+    background-color: #2e6171b2;
+    
+}
+#caixa{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 167px;
+    margin-right: 167px;
+    width: 45%;
+    height: 539px;
+    background-color: #556F7A;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    border-radius: 5px ;
+}
+#corpo{
+   
+    background-color: #2E6171;
+    height: 90vh;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    
+}
+p{
+    padding-left:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+img{
+    max-width: 100%;
+}

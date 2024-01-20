@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 25px;
+    background-color: #312b2b;
+    color: rgba(255, 255, 255, 0.794);
+}
+nav{
+    background-color: #333;
+}
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+   
+}
+nav a:hover{
+    background-color: red;
+    border-radius: 5px;
+
+}
+.menu{
+    position: absolute;
+    box-shadow: 0px 0px 2px black;
+    display: none;
+}
+.menu a{
+    display: block;
+    color:black;
+
+}
+.dropdown-menu:hover .menu{
+    display: block;
+}

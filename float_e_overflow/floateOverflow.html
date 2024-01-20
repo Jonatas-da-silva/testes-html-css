@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando overflow e Float</title>
+    <style>
+        .pai{
+            border: 2px solid black;
+            overflow: auto;
+        }
+        .pai img{
+            float: left;
+            margin-right: 10px;
+        }
+        .pai p{
+            text-align: justify;
+            text-indent: 15px;
+            line-height: 25px;
+            margin-right: 10px;
+        }
+        .titulo{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando overflow mais float com css interno</h1>
+    <div class="pai">
+        <img src="imagens/anita-malfatti.jpg" alt="">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illum enim, quidem id sequi reprehenderit iste sed delectus fugit? Nobis neque ipsa dolores exercitationem quo architecto quae aliquam porro unde?
+        </p>
+        <p>
+            At, saepe. Rerum magnam eaque consectetur ducimus voluptatum omnis sapiente voluptates, sed id laudantium accusamus porro. Qui dolorem maiores delectus, amet suscipit rem aspernatur non unde facere. Illum, ea at.
+        </p>
+
+        <h1 class="titulo">
+            testando o clear:both;
+        </h1>
+        
+
+    </div>
+    
+</body>
+</html>

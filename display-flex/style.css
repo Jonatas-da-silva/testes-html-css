@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #B6A39E;
+    text-align: justify;
+  
+}
+header{
+    background-color:#726E75;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.433);
+   
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    justify-content: flex-start;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+}
+.título{
+    margin-left: 200px;
+    margin-top: 36px;
+    font-size: 20px;
+    
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 20px;
+   
+    
+
+}
+.list  a{
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 15px;
+    color: #770301;
+    font-size:20px;
+    
+}
+a:hover{
+    background-color:#5d548e95;
+    border-radius: 6px;
+    transition: 0.6s;
+    font-size: 20px;
+    box-shadow: 3px 3px 2px #5d548e;
+}
+main{
+    max-width: 500px;
+    margin-left: 300px;
+    margin-top: 25px;
+    background-color:#948B89;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #927a75 ;
+   
+
+
+}
+main p{
+    line-height: 20px;
+    margin: 10px;
+    font-family:'Cormorant';
+
+}
+h1{
+    font-family: 'Cormorant';
+    font-size: 30px;
+}
+h2{ font-family: 'Cormorant';
+    font-size: 25px;}

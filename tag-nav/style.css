@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+}
+.caixa{
+    display: flex;
+    align-items: center;
+    margin-left:50px;
+}
+.título{
+    margin-left: 40px;
+    margin-right: 180px;
+
+}
+.título h2{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+   
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: aquamarine;
+}
+.logo h2{
+    color: rgb(16, 111, 103);
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    
+
+}
+.navigation li{
+    margin: 40px;
+    justify-content: flex-end;
+    list-style: none;
+
+    
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 10px;
+
+}
+.navigation a:hover{
+    background-color: rgb(148, 148, 206);
+    border-radius: 8px;
+    color: rgba(255, 0, 0, 0.592);
+    transition: .5s;
+    
+}
