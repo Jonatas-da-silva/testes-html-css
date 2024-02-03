@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    padding: 25px;
+    
+}
+p{
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: justify;
+}
+#img1{
+    background: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    background-attachment: fixed; 
+}
+#img2{
+    background: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+    background-attachment: fixed; 
+
+}
+.b{
+    background-color:white;
+}
