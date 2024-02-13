@@ -1,0 +1,17 @@
+#foto{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 150px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    border: 2px solid;
+    width: 600px;
+    height: 350px;
+}
+.filho{
+    padding-top:25px ;
+}
+
